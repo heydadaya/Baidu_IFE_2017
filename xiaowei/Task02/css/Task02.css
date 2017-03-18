@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #DEDEDE;
+}
+/*header*/
+header {
+    background: #333333;
+}
+header img {
+    height: 50px;
+    width: 150px;
+    margin: 10px 20px 10px 30px;
+}
+header ul {
+    float: right;
+    margin: 20px;
+}
+header ul li {
+    margin-left: 20px;
+    display: inline;
+    font-size: 1.2em;
+}
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+header ul li a:visited {
+    color: #9BA2AC;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    box-shadow: 2px 2px #9F9F9F;
+}
+article h3 {
+    color: #63686b;
+}
+article h5 {
+    color: #636d77;
+    font-weight: normal;
+}
+article ul li {
+    list-style: none;
+}
+
+.pic {
+    margin: 0 0 20px 50px;
+    padding: 0 20px 20px 20px;
+    border: 1px solid #cecece;
+    text-align: center;
+    width: 200px;
+}
+.pic div {
+    margin: 10px;
+}
+.pic img {
+    width: 200px;
+    height: 150px;
+}
+
+article ol li {
+    margin: 5px;
+    font-weight: bold;
+}
+article table {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+article table caption {
+    text-align: left;
+}
+article table th {
+    background-color: #000000;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    /*border-collapse: collapse;*/
+    color: #ffffff;
+}
+article table td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+article table tr:last-child td {
+    border: none;
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+aside {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    box-shadow: 2px 2px #9F9F9F;
+}
+aside h4 {
+    border-left: 5px solid #cccccc;
+    padding: 15px;
+}
+aside table {
+    margin-left: 400px;
+}
+aside table td {
+    padding: 10px;
+}
+aside table .right {
+    text-align: right;
+}
+aside table .right.top {
+    float: right;
+}
+aside table .description {
+    color: #aaaaaa;
+}
+aside table input[checked="checked"] {
+    color: blue;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 100%;
+}
+aside form button {
+    /*display: block;*/
+    width: 100%;
+    padding: 10px;
+    background-color: #3355d0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: #3355d0;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
