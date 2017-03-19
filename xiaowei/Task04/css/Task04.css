@@ -2,19 +2,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .rectangle {
     width: 400px;
     height: 200px;
     background-color: #cccccc;
-    /*float: left;*/
     margin: auto;
-    /*display: inline;*/
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
 }
+
+/*variable height*/
+/*.rectangle {*/
+/*background-color: #cccccc;*/
+/*margin: auto;*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*transform: translate(-50%, -50%);*/
+/*}*/
 .first {
     width: 50px;
     height: 50px;
@@ -22,6 +31,7 @@ body {
     /*border-radius: 50px;*/
     background-color: #ffcc00;
 }
+
 .second {
     width: 50px;
     height: 50px;

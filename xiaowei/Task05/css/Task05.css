@@ -34,6 +34,59 @@ header ul li a:visited {
     color: #9BA2AC;
 }
 
+aside {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    box-shadow: 2px 2px #9F9F9F;
+    width: 340px;
+    float: right;
+}
+
+aside h4 {
+    border-left: 5px solid #cccccc;
+    padding: 15px;
+}
+
+aside table td {
+    padding: 5px;
+}
+
+aside table .right {
+    text-align: right;
+}
+
+aside table .right.top {
+    float: right;
+}
+
+aside table .description {
+    color: #aaaaaa;
+}
+
+aside table input[checked="checked"] {
+    color: blue;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 100%;
+}
+
+aside form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3355d0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: #3355d0;
+}
+
+.content {
+    margin-right: 400px;
+}
+
 article {
     margin: 20px;
     padding: 20px;
@@ -56,6 +109,7 @@ article ul li {
 }
 
 .pic {
+    display: inline-block;
     margin: 0 0 20px 50px;
     padding: 0 20px 20px 20px;
     border: 1px solid #cecece;
@@ -105,57 +159,6 @@ article table tr:last-child td {
     border: none;
     background-color: #cccccc;
     font-weight: bold;
-}
-
-aside {
-    margin: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: solid 1px #cccccc;
-    box-shadow: 2px 2px #9F9F9F;
-}
-
-aside h4 {
-    border-left: 5px solid #cccccc;
-    padding: 15px;
-}
-
-aside table {
-    margin-left: 400px;
-}
-
-aside table td {
-    padding: 10px;
-}
-
-aside table .right {
-    text-align: right;
-}
-
-aside table .right.top {
-    float: right;
-}
-
-aside table .description {
-    color: #aaaaaa;
-}
-
-aside table input[checked="checked"] {
-    color: blue;
-    background-color: blue;
-    border: 1px solid blue;
-    border-radius: 100%;
-}
-
-aside form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #3355d0;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1.2em;
-    border-radius: 10px;
-    border: #3355d0;
 }
 
 footer {
